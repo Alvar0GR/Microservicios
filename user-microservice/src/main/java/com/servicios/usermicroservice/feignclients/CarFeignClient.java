@@ -12,7 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.servicios.usermicroservice.model.Car;
 
-@FeignClient(name="car-microservice", url="http://localhost:8002/car")
+@FeignClient(name="car-microservice-1")
+@RequestMapping("/car")
 public interface CarFeignClient {
 
 	@PostMapping()
