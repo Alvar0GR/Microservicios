@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.servicios.usermicroservice.model.Car;
 
-@FeignClient(name="car-microservice-1")
+@FeignClient(name="car-service")
 @RequestMapping("/car")
 public interface CarFeignClient {
 

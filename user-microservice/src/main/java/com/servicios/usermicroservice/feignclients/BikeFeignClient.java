@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.servicios.usermicroservice.model.Bike;
 
-@FeignClient(name="bike-microservice")
+@FeignClient(name="bike-service")
 @RequestMapping("/bike")
 public interface BikeFeignClient {
 
